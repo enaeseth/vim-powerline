@@ -78,8 +78,9 @@ let g:Powerline#Colorschemes#skwp#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
-		\ 'n': ['gray7', 'gray2'],
+		\ 'n': ['base1', 'base02'],
 		\ 'N': ['base2', 'base02'],
+		\ 'i': ['base2', 'base02'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename', 'filepath'], {
@@ -106,7 +107,7 @@ let g:Powerline#Colorschemes#skwp#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['gray5', 'gray2'],
+		\ 'n': ['base01', 'base02'],
 		\ 'i': ['mediumcyan', 'base02'],
 		\ }),
 	\
