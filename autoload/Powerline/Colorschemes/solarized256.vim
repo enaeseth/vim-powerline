@@ -1,4 +1,7 @@
-" This theme is based on Solarized-dark colors, combined
+" Authors:
+"   @skwp
+"
+" This colorscheme is based on Solarized-dark colors, combined
 " with Powerline native colors
 call Pl#Hi#Allocate({
 	\ 'black'          : 16,
@@ -40,10 +43,10 @@ call Pl#Hi#Allocate({
 	\ 'gray9'          : 250,
 	\ 'gray10'         : 252,
 	\
-	\ 'base00'         : [241, 0x657b83],
-	\ 'base01'         : [240, 0x586e75],
-	\ 'base02'         : [0, 0x073642],
 	\ 'base03'         : [234, 0x002b36],
+	\ 'base02'         : [235, 0x073642],
+	\ 'base01'         : [240, 0x586e75],
+	\ 'base00'         : [241, 0x657b83],
 	\ 'base0'          : [244, 0x839496],
 	\ 'base1'          : [245, 0x93a1a1],
 	\ 'base2'          : [254, 0xeee8d5],
@@ -58,7 +61,7 @@ call Pl#Hi#Allocate({
 	\ 'green'          : [64, 0x859900],
 	\ })
 
-let g:Powerline#Colorschemes#skwp#colorscheme = Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#solarized256#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['white', 'base02'],
 		\ 'N': ['white', 'base02'],
